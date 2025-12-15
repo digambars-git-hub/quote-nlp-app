@@ -1,5 +1,7 @@
 # 🧠 Context-Aware Quote Assistant
 
+![Quote NLP App](Quote-nlp-app-1.png)
+
 An intelligent quote recommendation system powered by Natural Language Processing (NLP) that uses semantic similarity to match user input with relevant quotes. Built with Streamlit and Sentence Transformers, this application provides personalized quote recommendations based on your thoughts, emotions, or situations.
 
 ## ✨ Features
@@ -10,6 +12,14 @@ An intelligent quote recommendation system powered by Natural Language Processin
 - **Admin Portal**: Secure admin interface to add new quotes with automatic tagging
 - **Auto-Tagging System**: Automatically assigns relevant tags to quotes using machine learning
 - **User-Friendly Interface**: Clean, intuitive Streamlit-based web interface
+
+## 📸 Screenshots
+
+### Main Interface
+![Quote NLP App Interface](Quote-nlp-app-1.png)
+
+### Application Demo
+![Quote NLP App Demo](Quote-nlp-app-2.png)
 
 ## 🚀 Getting Started
 
@@ -83,6 +93,8 @@ quote-nlp-app/
 ├── convert_txt_to_json.py    # Script to convert text quotes to JSON
 ├── my_quotes.txt            # Raw quotes (one per line)
 ├── quotes.json              # Tagged quotes in JSON format
+├── Quote-nlp-app-1.png     # Application screenshot 1
+├── Quote-nlp-app-2.png     # Application screenshot 2
 ├── requirements.txt         # Python dependencies
 ├── README.md               # This file
 └── .env                    # Environment variables (create this file)
