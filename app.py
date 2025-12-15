@@ -101,7 +101,7 @@ with st.sidebar:
 # Main interface
 st.markdown("Tell me your thoughts, a situation, or emotion. I'll find relevant quotes.")
 
-user_input = st.text_area("💬 What's on your mind?", height=200)
+user_input = st.text_area("💬 What's on your mind?", height=20)
 
 # Optional: show top N quotes
 quote_display_count = st.session_state.get("quote_display_count", 5)
